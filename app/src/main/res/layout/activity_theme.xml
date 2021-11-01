@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a4a4a"
+    android:id="@+id/theme_preview"
+    tools:context=".ThemeActivity">
+
+    <Button
+        android:id="@+id/bttnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"/>
+
+    <Button
+        android:id="@+id/bttnSetAsWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:text="Set as wallpaper" />
+
+    <Button
+        android:id="@+id/bttnDownload"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_file_download_black_24dp"/>
+
+</FrameLayout>
